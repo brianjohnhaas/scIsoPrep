@@ -1,0 +1,13 @@
+specific:
+  sample_map: /home/bhaas/workspace/Dondi/scisoprep/Patient1_Tumor_LR_bams/sample_map.txt
+  barcodes_dir: /home/bhaas/workspace/Dondi/scisoprep/bc_to_celltype
+  sqanti: /home/bhaas/workspace/Dondi/scisoprep/scripts/SQANTI3-5.1.1/
+  workdir: /home/bhaas/workspace/Dondi/scisoprep/Patient1_Tumor_LR_bams/results
+  maxmem: 16000 #maximum memory for collapsing, reduce if you have limited ressources / small dataset
+
+static:
+  data_path: /home/bhaas/workspace/Dondi/scisoprep/Patient1_Tumor_LR_bams
+  bin_path: /home/bhaas/workspace/Dondi/scisoprep/scripts
+  adapters: /home/bhaas/workspace/Dondi/scisoprep/primers/primers_default.fasta
+  genome: /home/bhaas/CTAT_GENOME_LIBS/GRCh38_gencode_v22_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_genome.fa
+  annotation: /home/bhaas/CTAT_GENOME_LIBS/GRCh38_gencode_v22_CTAT_lib_Mar012021.plug-n-play/ctat_genome_lib_build_dir/ref_annot.gtf

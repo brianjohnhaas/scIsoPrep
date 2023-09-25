@@ -1,14 +1,14 @@
 specific:
   sample_map: <path/to>/sample_map.tsv
-  barcodes_dir: <path/to>/scIsoPrep/bc_to_celltype
-  sqanti: <path/to>/scIsoPrep/scripts/SQANTI3-5.1.1
+  barcodes_dir: <path/to>/bc_to_celltype
+  sqanti: /home/bhaas/workspace/Dondi/scisoprep/scripts/SQANTI3-5.1.1
   workdir: <path/to>/output_files
   maxmem: 16000 #maximum memory for collapsing, reduce if your cluster has limited capacity
 
 
 static:
   data_path: <path/to>/data_bamfiles
-  bin_path: <path/to>/scIsoPrep/scripts
-  adapters: <path/to>/scIsoPrep/primers/primers_default.fasta
+  bin_path: /home/bhaas/workspace/Dondi/scisoprep/scripts
+  adapters: lima_adapters2.fasta
   genome: <path/to>/hg38.fa
   annotation: <path/to>/gencode.vXX.annotation.gtf
